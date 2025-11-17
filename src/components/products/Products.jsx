@@ -1,9 +1,9 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
+import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
+import { IoIosSearch } from "react-icons/io";
+import { MdImageSearch } from "react-icons/md";
 import ProductImage from "../../assets/product2.png";
 import starRate from "../../assets/star_rate.png";
-import { IoIosSearch } from "react-icons/io";
-import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
-import { MdImageSearch } from "react-icons/md";
 
 const SAMPLE_PRODUCTS = [
   {
@@ -130,7 +130,7 @@ export default function Products() {
           </div>
         </div>
 
-        <div className="flex items-center gap-4 border bg-white border-white rounded-[47px] px-5 py-3 sm:py-4 shadow">
+        <div className="flex items-center gap-4 border bg-white border-white rounded-[47px] px-5 py-3 sm:py-4 shadow cursor-pointer">
           <MdImageSearch />
           Search by Image
         </div>

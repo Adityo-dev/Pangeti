@@ -1,6 +1,6 @@
 import CrtImage from "../../assets/car.png";
-import CheckImage from "../../assets/check.png";
 import CardImage from "../../assets/card.png";
+import CheckImage from "../../assets/check.png";
 import SupportImage from "../../assets/support.png";
 
 // data
